@@ -667,6 +667,7 @@ width: 264px;
 
  }
  .check-text{
+      color: #8E8F99;
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
@@ -682,9 +683,22 @@ width: 264px;
 width: 16px;
 height: 16px;
 margin-right: 8px;
+border-radius: 2px; 
+border: 1px solid rgba(46, 47, 66, 0.40);
+display: flex;
+justify-content: center;
+align-items: center;
+fill: transparent;
 
  }
-
+ .check {
+  
+ }
+.check:checked,
+.form-check:checked + .check-text span{
+  visibility: visible;
+  border: none;
+ }
  .modal-button {
   color: #FFF;
     font-family: "Roboto", sans-serif;
@@ -711,3 +725,5 @@ margin-right: 8px;
  .modal-button:focus {
   background-color: #404BBF;
  }
+
+ 
