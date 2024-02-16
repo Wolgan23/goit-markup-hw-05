@@ -752,11 +752,13 @@ width: 264px;
   margin-bottom: 24px;
 
  }
- .modal-chb {
+ .modal-chb:checked {
+  
+
 
  }
 .check {
-  fill: #4d5ae5
+  fill:#4D5AE5;
 }
  .check-text{
       color: #8E8F99;
@@ -778,13 +780,20 @@ border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 justify-content: center;
 align-items: center;
-fill: transparent;
+fill:transparent;
 display: inline-flex;
+ }
+ .check{
+  visibility: hidden;
+ }
+ 
+ .modal-chb:checked + .check-text span {
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
 
- }
- .check {
-  
- }
+    }
+ 
  .modal-span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
