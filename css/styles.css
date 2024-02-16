@@ -752,14 +752,9 @@ width: 264px;
   margin-bottom: 24px;
 
  }
- .modal-chb:checked {
-  
 
 
- }
-.check {
-  fill:#4D5AE5;
-}
+
  .check-text{
       color: #8E8F99;
       font-size: 12px;
@@ -784,7 +779,7 @@ fill:transparent;
 display: inline-flex;
  }
  .check{
-  visibility: hidden;
+  visibility: hidde;
  }
  
  .modal-chb:checked + .check-text span {
