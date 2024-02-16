@@ -546,7 +546,9 @@ width: 264px;
  .icon-link{
   fill-opacity: #f4f4fd;
  }
-
+.subs-form{
+  padding-left: 80px;
+}
  .subs-name {
   margin-bottom: 16px;
   font-weight: 500;
@@ -721,6 +723,9 @@ width: 264px;
     margin-bottom: 8px;
 
  }
+ .modal-field-com{
+  margin-bottom: 16px;
+ }
  .modal-textarea {
   width: 100%;
     height: 120px;
@@ -774,6 +779,7 @@ border: 1px solid rgba(46, 47, 66, 0.40);
 justify-content: center;
 align-items: center;
 fill: transparent;
+display: inline-flex;
 
  }
  .check {
