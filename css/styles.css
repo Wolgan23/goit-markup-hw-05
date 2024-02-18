@@ -547,9 +547,10 @@ width: 264px;
   fill-opacity: #f4f4fd;
  }
 .subs-form{
-  padding-left: 80px;
+  margin-left: 80px;
 }
  .subs-name {
+  margin-top: 0;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -602,6 +603,7 @@ width: 264px;
  }
  .sub-icon{
   margin-left: 16px;
+  fill: #FFFFFF;
  }
  /* Modal*/
 
@@ -822,7 +824,7 @@ display: inline-flex;
     width: 169px;
     height: 56px;
     border: 4px;
-    margin: 24px auto;
+    margin: 24px auto 0;
     padding: 0;
     align-items: center;
     display: block;
